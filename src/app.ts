@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000; // Use the environment variable PORT or default to 3000
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Hello Kyrie!");
+  res.send("Todo app apiV1");
 });
 
 app.listen(PORT, () => {
